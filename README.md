@@ -1,64 +1,73 @@
-#🧩 Sudoku Solver (C++)
+# 🧩 Sudoku Solver (C++)
 
-A console-based Sudoku Solver developed in C++ using the Backtracking algorithm.
+A console-based **Sudoku Solver** developed in **C++** using the **Backtracking algorithm**.  
 This project demonstrates problem-solving, recursion, and constraint validation in a clean and efficient way.
 
-The solver takes a partially filled 9×9 Sudoku grid and automatically completes it while following standard Sudoku rules.
+The solver takes a partially filled **9×9 Sudoku grid** and automatically completes it while following standard Sudoku rules.
 
-#📌 Project Overview
+---
 
-The purpose of this project is to apply core C++ programming concepts and algorithmic thinking to solve a real-world logic problem.
+## 🎥 Project Demo Video
 
-Instead of relying on user input (which can cause input errors during demos), this version uses a built-in Sudoku puzzle to ensure smooth execution and accurate results.
+📺 **Watch the full project explanation and demo here:**  
+👉 https://drive.google.com/file/d/1WQR7B4ZJAPVXx0ukzr2qrb5cOGHwGAU8/view?usp=sharing
 
-#✨ Features
+The video explains:
+- Project overview
+- Algorithm logic (Backtracking)
+- Code walkthrough
+- Live program execution
 
-✅ Solves any valid 9×9 Sudoku puzzle
+---
 
-🔁 Uses Backtracking Algorithm
+## 📌 Project Overview
 
-🧠 Validates row, column, and 3×3 sub-grid constraints
+The purpose of this project is to apply **core C++ programming concepts** and **algorithmic thinking** to solve a real-world logic problem.
 
-🖥 Console-based (simple & lightweight)
+Instead of relying on user input (which can cause input errors during demos), this version uses a **built-in Sudoku puzzle** to ensure smooth execution and accurate results.
 
-📊 Displays both the original and solved Sudoku grid
+---
 
-🧠 Algorithm Used
-Backtracking Algorithm
+## ✨ Features
+
+✅ Solves any valid 9×9 Sudoku puzzle  
+🔁 Uses **Backtracking Algorithm**  
+🧠 Validates row, column, and 3×3 sub-grid constraints  
+🖥 Console-based (simple & lightweight)  
+📊 Displays both the original and solved Sudoku grid  
+
+---
+
+## 🧠 Algorithm Used
+
+### Backtracking Algorithm
 
 The solver:
-
-Finds an empty cell (represented by 0)
-
-Tries numbers from 1 to 9
-
-Checks if the number is valid:
-
-Not repeated in the row
-
-Not repeated in the column
-
-Not repeated in the 3×3 sub-grid
-
-Recursively continues
-
-Backtracks if a number leads to an invalid solution
+- Finds an empty cell (represented by `0`)
+- Tries numbers from **1 to 9**
+- Checks if the number is valid:
+  - Not repeated in the row
+  - Not repeated in the column
+  - Not repeated in the 3×3 sub-grid
+- Recursively continues
+- Backtracks if a number leads to an invalid solution
 
 This guarantees a correct solution if one exists.
 
-🛠 Technologies Used
+---
 
-Language: C++
+## 🛠 Technologies Used
 
-Compiler: GCC (MinGW)
+- **Language:** C++
+- **Compiler:** GCC (MinGW)
+- **IDE:** Visual Studio Code
+- **Platform:** Windows (Console Application)
+- **Version Control:** Git & GitHub
 
-IDE: Visual Studio Code
+---
 
-Platform: Windows (Console Application)
+## ▶️ How to Compile & Run
 
-Version Control: GitHub
-
-#▶️ How to Compile & Run
 ### 1️⃣ Open Terminal in Project Folder
 ```bash
 cd path/to/project-folder
@@ -71,3 +80,6 @@ g++ sudokusolver.cpp -o sudoku
 ```bash
 ./sudoku
 ```
+##📌 Internship Note
+
+This project was developed as part of my internship tasks and focuses on strengthening algorithmic thinking, recursion, and clean C++ implementation.
