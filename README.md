@@ -80,6 +80,6 @@ g++ sudokusolver.cpp -o sudoku
 ```bash
 ./sudoku
 ```
-##📌 Internship Note
+# 📌 Internship Note
 
 This project was developed as part of my internship tasks and focuses on strengthening algorithmic thinking, recursion, and clean C++ implementation.
